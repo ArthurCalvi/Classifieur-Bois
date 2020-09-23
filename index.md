@@ -1,13 +1,32 @@
 ## Filtering the false Positives, why?
 
+In our context, a false positive is an image of clearwood detected by the detection algorithm as an image of wood which contains a defect *(live or dead knot, pitch pocket, split or stain)*. The detection algorithm is used to classify woodboard, woodbeam, ... Thus, a false positive could lead to a negative classification error and then to an economic loss for the producer. As contrary a false negative is an image of a wood defect that has been detected by the algorithm as clearwood. A false negative could lead to a positive classification error and thus to customer risk. Unfortunately, decreasing the rate of false negatives could only be done by improving the core of the detection algorithm. However, decreasing the rate of false positive is easier : you just have to add a filter after the detection which remove the false positives. In this website, I provide a simple binary classifier *(Neural network)* which is able to distinguish clearwood from defects and which can be used as a false positive filter.
 
-You can use the [editor on GitHub](https://github.com/ArthurCalvi/Classifieur-Bois/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+<img src="/Images/process.PNG" alt="Wood Process" width="300"/>
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## The Filter
 
-## The Dataset 
+Like I have said abovee the filter is a neural network acting like a binary classifier. The architecture of the neural network is almost the same than Yann Lecun one. It is composed by 8 hidden layers, 3x3 kernel for convolution layer and 2x2 kernel for pooling layer. This neural network has approximatively 600k parameters. The both low complexity and low number of parameters of the net facilitate its training on a small dataset. 
 
-## The Neural Network 
+<p align="center">
+<img src="/Images/arch.PNG" alt="Neural Network Architecture" width="400"/>
+</p>
+
+## The training dataset
+
+The training dataset is composed by 400 images dowloaded on google images. Half of these images are clearwood and the other half contains 5 different types of defect : (1) Live knot, (2) dead knot, (3) stain, (4) pitch pocket, (5) stain. Those 5 categories of defect have been chosen because firstly they are the most common defect encountered and secondly they are the defects used by the *Eurocode* to visually classify the mechanical properties of wood. 
+
+<p align="center">
+<img src="/Images/défauts.PNG" alt=Defect categories" width="300"/>
+</p>
+
+As the purpose of this project is to create a starting point to automatic wood classification, the dataset contains more than 200 different wood species. This parameter is important because according the nature of the wood : hardwood of softwood but also according the species of the wood the aspect of the defects could vary. Therfore, I have attented to create the more unbiased dataset I could to provide a binary classifier which performs well on every species of wood. Afterwhile, you can create a dataset with only one specy of wood and then train the neural net on this particular dataset in order to be more accurate on this very specy.
+
+<p align="center">
+<img src="/Images/images.PNG" alt="Sample of the training dataset" width="400"/>
+</p>
 
 ## What for and How to use it ? 
 
