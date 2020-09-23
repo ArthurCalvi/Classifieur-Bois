@@ -19,7 +19,7 @@ Like I have said abovee the filter is a neural network acting like a binary clas
 The training dataset is composed by 400 images dowloaded on google images. Half of these images are clearwood and the other half contains 5 different types of defect : (1) Live knot, (2) dead knot, (3) stain, (4) pitch pocket, (5) stain. Those 5 categories of defect have been chosen because firstly they are the most common defect encountered and secondly they are the defects used by the *Eurocode* to visually classify the mechanical properties of wood. 
 
 <p align="center">
-<img src="/Images/défauts.PNG" alt=Defect categories" width="300"/>
+<img src="/Images/défauts.PNG" alt="Defect categories" width="300"/>
 </p>
 
 As the purpose of this project is to create a starting point to automatic wood classification, the dataset contains more than 200 different wood species. This parameter is important because according the nature of the wood : hardwood of softwood but also according the species of the wood the aspect of the defects could vary. Therfore, I have attented to create the more unbiased dataset I could to provide a binary classifier which performs well on every species of wood. Afterwhile, you can create a dataset with only one specy of wood and then train the neural net on this particular dataset in order to be more accurate on this very specy.
