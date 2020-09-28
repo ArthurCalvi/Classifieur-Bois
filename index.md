@@ -30,6 +30,21 @@ As the purpose of this project is to create a starting point to automatic wood c
 
 ## What for and How to use it ? 
 
+# Predict nature of wood images : defect or clearwood 
+  
+1. Where I can add images? 
+
+In order to predict the nature of a particular image, you should add this image to a specific folder on your google drive. Why on google drive? Because codes are hosted on google colaboratory and thoses codes will be cloned on your google drive. This will create folders on your google drive where images can be uploaded and then easily processed by the neural network.
+
+Tutorial : How to configure your google drive : 
+  1. Please create a folder named "Project_google_colab" in My Drive/.
+  2. Launch this notebook on google colab : 
+
+2. How to preprocess thoses images? 
+
+3. How I predict the nature of thoses images? 
+
+## HELP
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
