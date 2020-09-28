@@ -38,7 +38,13 @@ In order to predict the nature of a particular image, you should add this image 
 
 Tutorial : How to configure your google drive : 
   - Please create a folder named "Project_google_colab" in My Drive/.
-  - Launch this notebook on google colab : 
+<p align="center">
+<img src="Images/tuto_drive.PNG" alt="Google Drive tutorial" width="700"/>
+</p>
+  - Launch this *Jupyter* notebook on google colab : [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Classification_du_bois_pr%C3%A9paration_des_images.ipynb)
+<p align="center">
+<img src="Images/tuto_colab.PNG" alt="Colab tutorial" width="700"/>
+</p>
 
 2. How to preprocess thoses images? 
 
