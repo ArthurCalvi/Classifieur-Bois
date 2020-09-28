@@ -3,7 +3,7 @@
 In our case, a false positive is an image of clearwood detected by the detection algorithm as an image of wood which contains a defect *(live or dead knot, pitch pocket, split or stain)*. The detection algorithm is used to classify woodboard, woodbeam, ... Thus, a false positive could lead to a negative classification error and then to an economic loss for the manufacturer. As contrary, a false negative is an image of a wood defect that has been detected by the algorithm as clearwood. A false negative could lead to a positive classification error and thus to customer risk. Unfortunately, decreasing the rate of false negatives could only be done by improving the core of the detection algorithm. However, decreasing the rate of false positive is easier : you just have to add a filter after the detection which remove the false positives. In this website, I provide a simple binary classifier *(Neural network)* which is able to distinguish clearwood from defects and which can be used as a false positive filter.
 
 <p align="center">
-<img src="/Images/process.PNG" alt="Wood Process" width="300"/>
+<img src="Images/process.PNG" alt="Wood Process" width="300"/>
 </p>
 
 ## The Filter
@@ -11,7 +11,7 @@ In our case, a false positive is an image of clearwood detected by the detection
 The filter is a convolutional neural network acting like a binary classifier. The architecture of the neural network is almost the same as Yann Lecun one. It is composed by 8 hidden layers, 3x3 kernel for convolution layer and 2x2 kernel for pooling layer. This neural network has approximatively 600k parameters. The both low complexity and low number of parameters of the net facilitate its training on a small dataset.
 
 <p align="center">
-<img src="/Images/arch.PNG" alt="Neural Network Architecture" width="400"/>
+<img src="Images/arch.PNG" alt="Neural Network Architecture" width="400"/>
 </p>
 
 ## The training dataset
@@ -25,7 +25,7 @@ The training dataset is composed by 400 images downloaded on google images. Half
 As the purpose of this project is to create a starting point to automatic wood classification, the dataset contains more than 200 different wood species. This parameter is important because according to the nature of the wood : hardwood of softwood and also the species the aspect of the defects could vary. Therefore, I tried to create the more unbiased dataset I could to provide a binary classifier which performs well on every species of wood. Afterwhile, you can create a dataset with only one specie of wood and then train the neural net on this particular dataset in order to be more accurate on this very specie.
 
 <p align="center">
-<img src="/Images/images.PNG" alt="Sample of the training dataset" width="400"/>
+<img src="Images/images.PNG" alt="Sample of the training dataset" width="400"/>
 </p>
 
 ## What for and How to use it ? 
