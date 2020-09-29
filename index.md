@@ -43,7 +43,7 @@ In order to predict the nature of a particular image, you should add this image 
 <img src="Images/tuto_drive.PNG" alt="Google Drive tutorial" width="800"/>
 </p>
 
-  -   Launch this *Jupyter* notebook on google colab : [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Classification_du_bois_pr%C3%A9paration_des_images.ipynb).
+  -   Launch this *Jupyter* notebook on google colab : [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Neural_net_Preprocessing_images.ipynb).
 <p align="center">
 <img src="Images/tuto_colab.PNG" alt="Colab tutorial" width="800"/>
 </p>
@@ -58,7 +58,7 @@ In the folder "IMAGES_brutes" you can upload *.jpg* and *.png* images. The resol
 
 2.  How can I preprocess images for the neural net? 
 
-Now that you have upload the images you should process them a bit to use the neural net. You may use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Classification_du_bois_pr%C3%A9paration_des_images.ipynb) to do it (Open it in Google Colab). This notebook rescales and reshapes images of the 'IMAGES_brutes" folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions on the notebook.
+Now that you have upload the images you should process them a bit to use the neural net. You may use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Neural_net_Preprocessing_images.ipynb) to do it (Open it in Google Colab). This notebook rescales and reshapes images of the 'IMAGES_brutes" folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions on the notebook.
 
 <p align="center">
 <img src="Images/preprocessing_images.PNG" alt="preprocessing_images" width="500"/>
