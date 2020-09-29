@@ -25,18 +25,18 @@ The training dataset is composed by 400 images downloaded on google images. Half
 As the purpose of this project is to create a starting point to automatic wood classification, the dataset contains more than 200 different wood species. This parameter is important because according to the nature of the wood : hardwood of softwood and also the species the aspect of the defects could vary. Therefore, I tried to create the more unbiased dataset I could to provide a binary classifier which performs well on every species of wood. Afterwhile, you can create a dataset with only one specie of wood and then train the neural net on this particular dataset in order to be more accurate on this very specie.
 
 <p align="center">
-<img src="Images/images.PNG" alt="Sample of the training dataset" width="400"/>
+<img src="Images/images.PNG" alt="Sample of the training dataset" width="500"/>
 </p>
 
 ## What for and How to use it ? 
 
 # Predict nature of wood images : defect or clearwood 
   
-1. Where I can add images? 
+1. Where can I add images for prediction? 
 
 In order to predict the nature of a particular image, you should add this image to a specific folder on your google drive. Why on google drive? Because codes are hosted on google colaboratory and thoses codes will be cloned on your google drive. This will create folders on your google drive where images can be uploaded and then easily processed by the neural network.
 
-Tutorial : How to configure your google drive : 
+*Tutorial : How to configure your google drive :*
 
   -   Please create a folder named "Project_google_colab" in My Drive/.
 <p align="center">
@@ -48,9 +48,15 @@ Tutorial : How to configure your google drive :
 <img src="Images/tuto_colab.PNG" alt="Colab tutorial" width="700"/>
 </p>
 
-2. How to preprocess thoses images? 
+Your google drive should be configured by now. Open the folder "Project_google_colab", a new folder named "Classifieur-Bois" should be here. Open it! This folder contains 4 folders. You can directly upload your images in the folder "IMAGES_brutes". 
 
-3. How I predict the nature of thoses images? 
+<p align="center">
+<img src="Images/tuto_add_images.PNG" alt="add images tutorial" width="700"/>
+</p>
+
+2. How to preprocess images for the neural net? 
+
+3. How can I predict the nature of thoses images? 
 
 ## HELP
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
