@@ -1,6 +1,6 @@
 ## Filtering the false Positives, why?
 
-In our case, a false positive is an image of clearwood detected by the detection algorithm as an image of wood which contains a defect *(live or dead knot, pitch pocket, split or stain)*. The detection algorithm is used to classify woodboard, woodbeam, ... Thus, a false positive could lead to a negative classification error and then to an economic loss for the manufacturer. As contrary, a false negative is an image of a wood defect that has been detected by the algorithm as clearwood. A false negative could lead to a positive classification error and thus to customer risk. Unfortunately, decreasing the rate of false negatives could only be done by improving the core of the detection algorithm. However, decreasing the rate of false positive is easier : you just have to add a filter after the detection which remove the false positives. In this website, I provide a simple binary classifier *(Neural network)* which is able to distinguish clearwood from defects and which can be used as a false positive filter.
+In our case, a false positive is an image of clearwood detected by the detection algorithm as an image of wood defect *(live or dead knot, pitch pocket, split or stain)*. The detection algorithm is used to classify woodboard, woodbeam, ... Thus, a false positive could lead to a negative classification error and then to an economic loss for the manufacturer. As contrary, a false negative is an image of a wood defect that has been detected by the algorithm as clearwood. A false negative could lead to a positive classification error and thus to customer risk. Unfortunately, decreasing the rate of false negatives could only be done by improving the core of the detection algorithm. However, decreasing the rate of false positive is much more easier : you just have to add a filter after the detection which remove the false positives. In this website, I provide a simple binary classifier *(Neural network)* which is able to distinguish clearwood from defects and which can be used as a false positives filter.
 
 <p align="center">
 <img src="Images/process.PNG" alt="Wood Process" width="400"/>
@@ -34,7 +34,7 @@ As the purpose of this project is to create a starting point to automatic wood c
   
 1.  Where can I upload images for prediction? 
 
-In order to predict the nature of a particular image, you should add this image to a specific folder on your google drive. Why on google drive? Because codes are hosted on google colaboratory and thoses codes will be cloned on your google drive. This will create folders on your google drive where images can be uploaded and then easily processed by the neural network.
+In order to predict the nature of a particular image, you should add this image to a specific folder on your Google Drive. Why on Google Drive? Because codes are hosted on google colaboratory and these codes will be cloned on your Google Drive. This will create folders on your Google Drive where images can be uploaded and then easily processed by the neural network.
 
 *Tutorial : How to configure your google drive :*
 
@@ -48,7 +48,7 @@ In order to predict the nature of a particular image, you should add this image 
 <img src="Images/tuto_colab.PNG" alt="Colab tutorial" width="800"/>
 </p>
 
-Your google drive should be configured by now. Open the folder "Project_google_colab", a new folder named "Classifieur-Bois" should be here. Open it! This folder contains 4 folders. You can directly upload your images in the folder "IMAGES_brutes". 
+Your Google Drive should be configured by now. Open the folder "Project_google_colab", a new folder named "Classifieur-Bois" should be here. Open it! This folder contains 4 folders. You can directly upload your images in the folder "IMAGES_brutes".
 
 <p align="center">
 <img src="Images/tuto_add_images.PNG" alt="add images tutorial" width="800"/>
@@ -58,15 +58,14 @@ In the folder "IMAGES_brutes" you can upload *.jpg* and *.png* images. The resol
 
 2.  How can I preprocess images for the neural net? 
 
-Now that you have upload the images you should process them a bit to use the neural net. You may use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Classification_du_bois_pr%C3%A9paration_des_images.ipynb) to do it (Open it in Google Colab). This notebook rescale and reshape images of the 'IMAGES_brutes" folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions of the notebook. 
+Now that you have upload the images you should process them a bit to use the neural net. You may use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Classification_du_bois_pr%C3%A9paration_des_images.ipynb) to do it (Open it in Google Colab). This notebook rescales and reshapes images of the 'IMAGES_brutes" folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions on the notebook.
 
 <p align="center">
 <img src="Images/preprocessing_images.PNG" alt="preprocessing_images" width="500"/>
 </p>
 
 3.  How can I predict the nature of thoses images? 
-
-Now that the images are ready you will predict the nature of theses images. To do so, you will use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Neural_Net_Wood_Classifier.ipynb) (Open it in Google Colab). Again, you just have to follow the instructions of the notebook. 
+Now that the images are ready you will predict the nature of these images. To do so, you will use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Neural_Net_Wood_Classifier.ipynb) (Open it in Google Colab). Again, you just have to follow the instructions on the notebook.
 
 <p align="center">
 <img src="Images/prediction_process.PNG" alt="prediction_process" width="500"/>
