@@ -58,13 +58,19 @@ In the folder "IMAGES_brutes" you can upload *.jpg* and *.png* images. The resol
 
 2.  How can I preprocess images for the neural net? 
 
-Now that you have upload the images you should process them a bit to use the neural net. You may use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Classification_du_bois_pr%C3%A9paration_des_images.ipynb) to do it. This notebook rescale and reshape images of the 'IMAGES_brutes" folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions of the notebook. 
+Now that you have upload the images you should process them a bit to use the neural net. You may use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Classification_du_bois_pr%C3%A9paration_des_images.ipynb) to do it (Open it in Google Colab). This notebook rescale and reshape images of the 'IMAGES_brutes" folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions of the notebook. 
 
 <p align="center">
 <img src="Images/preprocessing_images.PNG" alt="preprocessing_images" width="700"/>
 </p>
 
 3.  How can I predict the nature of thoses images? 
+
+Now that the images are ready you will predict the nature of theses images. To do so, you will use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Neural_Net_Wood_Classifier.ipynb) (Open it in Google Colab). Again, you just have to follow the instructions of the notebook. 
+
+<p align="center">
+<img src="Images/prediction_process.PNG" alt="prediction_process" width="700"/>
+</p>
 
 ## HELP
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
