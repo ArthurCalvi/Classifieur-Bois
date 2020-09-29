@@ -30,9 +30,9 @@ As the purpose of this project is to create a starting point to automatic wood c
 
 ## What for and How to use it ? 
 
-### Predict nature of wood images : defect or clearwood 
+### Predict the nature of wood images : defect or clearwood.
   
-1.  Where can I add images for prediction? 
+1.  Where can I upload images for prediction? 
 
 In order to predict the nature of a particular image, you should add this image to a specific folder on your google drive. Why on google drive? Because codes are hosted on google colaboratory and thoses codes will be cloned on your google drive. This will create folders on your google drive where images can be uploaded and then easily processed by the neural network.
 
@@ -72,33 +72,4 @@ Now that the images are ready you will predict the nature of theses images. To d
 <img src="Images/prediction_process.PNG" alt="prediction_process" width="700"/>
 </p>
 
-## HELP
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ArthurCalvi/Classifieur-Bois/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**Enjoy** ! 
