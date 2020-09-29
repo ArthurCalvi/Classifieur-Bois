@@ -44,8 +44,15 @@ In order to predict the nature of a particular image, you should add this image 
 </p>
 
   -   Launch this *Jupyter* notebook on google colab : [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Neural_net_Preprocessing_images.ipynb).
+  
 <p align="center">
 <img src="Images/tuto_colab.PNG" alt="Colab tutorial" width="800"/>
+</p>
+
+  -  Just execute the line "***First run***". It will clone the GitHub repository on your Google Drive. 
+  
+<p align="center">
+<img src="Images/git_clone.PNG" alt="Git clone" width="500"/>
 </p>
 
 Your Google Drive should be configured by now. Open the folder "Project_google_colab", a new folder named "Classifieur-Bois" should be here. Open it! This folder contains 4 folders. You can directly upload your images in the folder "IMAGES_brutes".
