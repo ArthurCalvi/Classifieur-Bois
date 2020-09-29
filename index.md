@@ -30,9 +30,9 @@ As the purpose of this project is to create a starting point to automatic wood c
 
 ## What for and How to use it ? 
 
-# Predict nature of wood images : defect or clearwood 
+### Predict nature of wood images : defect or clearwood 
   
-1. Where can I add images for prediction? 
+1.  Where can I add images for prediction? 
 
 In order to predict the nature of a particular image, you should add this image to a specific folder on your google drive. Why on google drive? Because codes are hosted on google colaboratory and thoses codes will be cloned on your google drive. This will create folders on your google drive where images can be uploaded and then easily processed by the neural network.
 
@@ -54,9 +54,17 @@ Your google drive should be configured by now. Open the folder "Project_google_c
 <img src="Images/tuto_add_images.PNG" alt="add images tutorial" width="700"/>
 </p>
 
-2. How to preprocess images for the neural net? 
+In the folder "IMAGES_brutes" you can upload *.jpg* and *.png* images. The resolution doesn't matter but the short side of the image should be at least *256*px wide. 
 
-3. How can I predict the nature of thoses images? 
+2.  How can I preprocess images for the neural net? 
+
+Now that you have upload the images you should process them a bit to use the neural net. You may use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Classification_du_bois_pr%C3%A9paration_des_images.ipynb) to do it. This notebook rescale and reshape images of the 'IMAGES_brutes" folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions of the notebook. 
+
+<p align="center">
+<img src="Images/preprocessing_images.PNG" alt="preprocessing_images" width="700"/>
+</p>
+
+3.  How can I predict the nature of thoses images? 
 
 ## HELP
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
