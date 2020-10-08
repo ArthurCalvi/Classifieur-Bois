@@ -1,4 +1,4 @@
-Firsly, I invite you to check the [ReadMe file](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/README.md) to have insights on the repository. 
+Firstly, I invite you to check the [ReadMe file](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/README.md) to have insights on the repository. 
 
 ## Filtering the false Positives, why?
 
