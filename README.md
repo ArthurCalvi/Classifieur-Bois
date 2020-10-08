@@ -1,4 +1,4 @@
-# Wood Classifier
+# Wood Classifier - Version 0.1 of the 10/08/2020
 
 ## Intro :
 This repository contains the work of my 3 months Internship at *ENSAPM* (Ecole Nationale Supérieure d'Architecture Paris Malaquais), as a data scientist I had to developp a binary classifier to filter out false positives of wood defect in order to improve a wood defect detection algorithm. No dataset existed for this task so I had also to create my own dataset. Wood defect detection algorithm are used in industry to process woodbeam, woodboard, etc. False positives which are clearwood detected as defects could lead to material losses for the wood producer or negative errors of wood classification. 
@@ -16,3 +16,5 @@ The purpose of this repository is to easily continue my work, in particular wide
 - Folder 1 - raw images : Once this folder cloned into your google drive, you will deposit your (non prepared) images in this folder on your google drive.  
 - Folder 2 - prepares images : The images prepared by the Jupyter NoteBook 1 will be saved into this folder on your google drive. 
 
+## Contact
+- Arthur Calvi at arthur.calvi@ens-paris-saclay.fr
