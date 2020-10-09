@@ -31,10 +31,8 @@ As the purpose of this project is to create a starting point to automatic wood c
 </p>
 
 ## What for and How to use it ? 
-
-### Predict the nature of wood images : defect or clearwood.
   
-1. Where can I upload images for prediction? 
+### Where can I upload images for prediction? 
 
 In order to predict the nature of a particular image, you should add this image to a specific folder on your Google Drive. Why on Google Drive? Because codes are hosted on google colaboratory and these codes will be cloned on your Google Drive. This will create folders on your Google Drive where images can be uploaded and then easily processed by the neural network.
 
@@ -45,7 +43,7 @@ In order to predict the nature of a particular image, you should add this image 
 <img src="Images/tuto_drive.PNG" alt="Google Drive tutorial" width="800"/>
 </p>
 
-  -   Launch this *Jupyter* notebook on google colab : [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Neural_net_Preprocessing_images.ipynb).
+  -   Launch this *Jupyter* notebook on google colab : [Jupyter Notebook 1 - Images preprocessing](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Images_preprocessing.ipynb).
   
 <p align="center">
 <img src="Images/tuto_colab.PNG" alt="Colab tutorial" width="800"/>
@@ -57,27 +55,33 @@ In order to predict the nature of a particular image, you should add this image 
 <img src="Images/git_clone.PNG" alt="Git clone" width="500"/>
 </p>
 
-Your Google Drive should be configured by now. Open the folder "Project_google_colab", a new folder named "Classifieur-Bois" should be here. Open it! This folder contains 4 folders. You can directly upload your images in the folder "IMAGES_brutes".
+Your Google Drive should be configured by now. Open the folder /Project_google_colab, a new folder named /Classifieur-Bois should be here. Open it! This folder contains 4 folders. You can directly upload your images in the folder /IMAGES_raw.
 
 <p align="center">
 <img src="Images/tuto_add_images.PNG" alt="add images tutorial" width="800"/>
 </p>
 
-In the folder "IMAGES_brutes" you can upload *.jpg* and *.png* images. The resolution doesn't matter but the short side of the image should be at least *256*px wide. 
+In the folder /IMAGES_raw you can upload *.jpg* images. The resolution doesn't matter but the short side of the image should be at least *256*px wide. 
 
-2. How can I preprocess images for the neural net? 
+### How can I preprocess images for the neural net? 
 
-Now that you have upload the images you should process them a bit to use the neural net. You may use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Neural_net_Preprocessing_images.ipynb) to do it (Open it in Google Colab). This notebook rescales and reshapes images of the 'IMAGES_brutes" folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions on the notebook.
+Now that you have uploaded the images, you should process them a bit to use the neural net. You may use this [Jupyter Notebook 1 - Images preprocessing](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Images_preprocessing.ipynb) to do it (Open it in Google Colab). This notebook rescales and reshapes images of the /IMAGES_raw folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions on the notebook. The preprocessed images are saved in the /IMAGES_preprocessed folder.
 
 <p align="center">
 <img src="Images/preprocessing_images.PNG" alt="preprocessing_images" width="500"/>
 </p>
 
-3. How can I predict the nature of thoses images? 
-Now that the images are ready you will predict the nature of these images. To do so, you will use this [Jupyter Notebook](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Neural_Net_Wood_Classifier.ipynb) (Open it in Google Colab). Again, you just have to follow the instructions on the notebook.
+### How can I predict the nature of these images? 
+Now that the images are ready you will predict the nature of these images. To do so, you will use this [Jupyter Notebook 2 - Image prediction](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Image_prediction.ipynb) (Open it in Google Colab). Again, you just have to follow the instructions on the notebook.
 
 <p align="center">
 <img src="Images/prediction_process.PNG" alt="prediction_process" width="500"/>
 </p>
+
+## How to create a new dataset and How to filter out false positives from a dataset.
+
+In addition, two more Jupyter Notebook are available :
+- [Jupyter Notebook 3 - Creation of your dataset](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Creation_of_your_dataset.ipynb) : Use this notebook to create or to widden a dataset. 
+- [Jupyter Notebook 4 - Filter](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Filter.ipynb) : Use this notebook to filter out false positives from a dataset. 
 
 **Enjoy** ! 
