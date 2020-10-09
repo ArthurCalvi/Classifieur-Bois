@@ -1,0 +1,1 @@
+This folder contains the images filtred out by the wood-classifier in the Jupyter NoteBook 4. 
