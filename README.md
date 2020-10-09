@@ -21,9 +21,11 @@ The purpose of this repository is to easily continue my work, in particular wide
 - Folder 4 - filtred images : The images filtred by the Jupyter NoteBook 4 will be saved in this folder on your google drive. 
 
 ## GitHub Clone
-To easily use the Jupyter NoteBooks : you have to open them in Google Colaboratory. Google Colaboratory is a cloud platform where you can execute python codes, you don't have to install any package and you will benefit from a great computational power. Following the instructions on the GitHub Page, you will clone this repository on your google drive to comfortably execute the Jupyter Notebook (Don't forget to create the folder "Project_google_colab" at the root of /My Drive before cloning the repository). In your google drive clone will be stored all the needed codes and models for using the wood classifier. In addition, two folders will be availabe on your google drive ( My Drive/Project_google_colab/Classifieur-bois) :
+To easily use the Jupyter NoteBooks : you have to open them in Google Colaboratory. Google Colaboratory is a cloud platform where you can execute python codes, you don't have to install any package and you will benefit from a great computational power. Following the instructions on the GitHub Page, you will clone this repository on your google drive to comfortably execute the Jupyter Notebook (Don't forget to create the folder "Project_google_colab" at the root of /My Drive before cloning the repository). In your google drive clone will be stored all the needed codes and models for using the wood classifier. In addition, four folders will be availabe on your google drive ( My Drive/Project_google_colab/Classifieur-bois) :
 - /IMAGES_raw : you will upload the images you want estimate here.
 - /IMAGES_preprocessed : the Jupyter Notebook 1 will store prepared images here.
+- /New_Dataset : the Jupyter Notebook 3 will store classified images here. 
+- /IMAGES_filtred : the Jupyter Notebook 4 will store filtred images here.
 
 ## Contact
 - Arthur Calvi at arthur.calvi@ens-paris-saclay.fr
