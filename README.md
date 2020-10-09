@@ -16,7 +16,9 @@ The purpose of this repository is to easily continue my work, in particular wide
 - Python functions - [Custom functions](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/custom_functions_v1.py) : This python code contains several functions used during the data generation to perform : random cropping and hue changes.
 - MIT License.
 - Folder 1 - raw images : Once this folder cloned into your google drive, you will deposit your (non prepared) images in this folder on your google drive.
-- Folder 2 - preprocessed images : The images prepared by the Jupyter NoteBook 1 will be saved into this folder on your google drive.
+- Folder 2 - preprocessed images : The images prepared by the Jupyter NoteBook 1 will be saved in this folder on your google drive.
+- Folder 3 - new dataset : The images classified by the Jupyter NoteBook 3 will be saved in this folder on your google drive. 
+- Folder 4 - filtred images : The images filtred by the Jupyter NoteBook 4 will be saved in this folder on your google drive. 
 
 ## GitHub Clone
 To easily use the Jupyter NoteBooks : you have to open them in Google Colaboratory. Google Colaboratory is a cloud platform where you can execute python codes, you don't have to install any package and you will benefit from a great computational power. Following the instructions on the GitHub Page, you will clone this repository on your google drive to comfortably execute the Jupyter Notebook (Don't forget to create the folder "Project_google_colab" at the root of /My Drive before cloning the repository). In your google drive clone will be stored all the needed codes and models for using the wood classifier. In addition, two folders will be availabe on your google drive ( My Drive/Project_google_colab/Classifieur-bois) :
