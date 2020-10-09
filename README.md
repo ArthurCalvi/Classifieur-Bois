@@ -25,7 +25,7 @@ To easily use the Jupyter NoteBooks : you have to open them in Google Colaborato
 - /IMAGES_raw : you will upload the images you want estimate here.
 - /IMAGES_preprocessed : the Jupyter Notebook 1 will store prepared images here.
 - /New_Dataset : the Jupyter Notebook 3 will store classified images here. 
-- /IMAGES_filtred : the Jupyter Notebook 4 will store filtred images here.
+- /IMAGES_filtered : the Jupyter Notebook 4 will store filtred images here.
 
 ## Contact
 - Arthur Calvi at arthur.calvi@ens-paris-saclay.fr
