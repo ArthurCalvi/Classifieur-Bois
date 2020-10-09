@@ -80,7 +80,7 @@ Now that the images are ready you will predict the nature of these images. To do
 
 ## How to create a new dataset and How to filter out false positives from a dataset.
 
-In addition, two more Jupyter Notebook are available :
+In addition, two more Jupyter Notebooks are available :
 - [Jupyter Notebook 3 - Creation of your dataset](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Creation_of_your_dataset.ipynb) : Use this notebook to create or to widden a dataset. 
 - [Jupyter Notebook 4 - Filter](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Filter.ipynb) : Use this notebook to filter out false positives from a dataset. 
 
