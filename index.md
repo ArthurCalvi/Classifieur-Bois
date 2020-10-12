@@ -44,7 +44,7 @@ In order to predict the nature of a particular image, you should add this image 
 <img src="Images/tuto_drive.PNG" alt="Google Drive tutorial" width="800"/>
 </p>
 
-  -   Launch this *Jupyter* notebook on google colab : [Jupyter Notebook 1 - Images preprocessing](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Images_preprocessing.ipynb).
+  -   Launch this *Jupyter* notebook on google colab : [Jupyter Notebook 1 - Images preprocessing and prediction](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Images_preprocessing_and_prediction.ipynb).
   
 <p align="center">
 <img src="Images/tuto_colab.PNG" alt="Colab tutorial" width="800"/>
@@ -66,14 +66,14 @@ In the folder /IMAGES_raw you can upload *.jpg* images. The resolution doesn't m
 
 ### How can I preprocess images for the neural net? 
 
-Now that you have uploaded the images, you should process them a bit to use the neural net. You may use this [Jupyter Notebook 1 - Images preprocessing](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Images_preprocessing.ipynb) to do it (Open it in Google Colab). This notebook rescales and reshapes images of the /IMAGES_raw folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions on the notebook. The preprocessed images are saved in the /IMAGES_preprocessed folder.
+Now that you have uploaded the images, you should process them a bit to use the neural net. All the provided notebooks  preprocess the images but you may use this [Jupyter Notebook 1 - Images preprocessing and prediction](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Images_preprocessing_and_prediction.ipynb) to understand how it works (Open it in Google Colab). This notebook rescales and reshapes images of the /IMAGES_raw folder to square images of *256x256* px in order to be processed by the neural net. You just have to follow the instructions in the PART1 - Preprocessing images of this notebook. The preprocessed images are saved in the /IMAGES_preprocessed folder.
 
 <p align="center">
 <img src="Images/preprocessing_images.PNG" alt="preprocessing_images" width="500"/>
 </p>
 
 ### How can I predict the nature of these images? 
-Now that the images are ready you will predict the nature of these images. To do so, you will use this [Jupyter Notebook 2 - Image prediction](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Image_prediction.ipynb) (Open it in Google Colab). Again, you just have to follow the instructions on the notebook.
+Now that the images are ready you will predict the nature of these images. All the provided notebooks use the prediction but I recommand to firstly execute the [Jupyter Notebook 1 - Image preprocessing and prediction](https://github.com/ArthurCalvi/Classifieur-Bois/blob/master/Images_preprocessing_and_prediction.ipynb) to understand how the prediction works (Open it in Google Colab). Again, you just have to follow the instructions in the PART 2 - Image prediction of this notebook.
 
 <p align="center">
 <img src="Images/prediction_process.PNG" alt="prediction_process" width="500"/>
